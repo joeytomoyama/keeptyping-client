@@ -1,0 +1,26 @@
+#root {
+  width: 70%;
+  /* max-width: 1280px; */
+  /* margin: 0 auto; */
+  padding: 2rem;
+  /* text-align: center; */
+  /* overflow: hidden; */
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  /* border: green solid 1px; */
+}
+
+.wordList {
+  max-width: 1280px;
+  color: grey;
+  position: absolute;
+  /* border: red solid 1px; */
+}
+
+.typedWordList {
+  max-width: 1280px;
+  color: white;
+  position: relative;
+  /* border: blue solid 1px; */
+}
