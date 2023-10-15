@@ -1,3 +1,9 @@
+# Setup
+
+1. Clone this project onto your machine.
+2. "npm install". -> installs all necessary dependencies.
+3. "npm run dev". -> starts a local development server to test out the website.
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
