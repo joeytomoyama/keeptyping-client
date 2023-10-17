@@ -24,3 +24,7 @@
   position: relative;
   /* border: blue solid 1px; */
 }
+
+.nativeWord {
+  text-align: center;
+}
