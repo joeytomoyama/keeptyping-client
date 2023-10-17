@@ -20,12 +20,12 @@ function App() {
     // } catch(error) {
     //   console.log(error)
     // }
-    fetch('/english.json')
+    fetch('./english.json')
       .then((response) => response.json())
       .then((json) => setWordList(json))
       .catch((error) => console.error('Error fetching data: ', error))
 
-    fetch('/german.json')
+    fetch('./german.json')
       .then(response => response.json())
       .then(json => setNativeWordList(json))
       .catch((error) => console.error('Error fetching data: ', error))
